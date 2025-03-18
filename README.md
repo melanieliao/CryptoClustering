@@ -4,10 +4,15 @@ This project applies K-Means clustering to analyze and group cryptocurrencies ba
 
 ## Key Objectives
 ✔ Preprocess crypto market data
+
 ✔ Standardize features using StandardScaler
+
 ✔ Apply PCA to reduce dimensionality
+
 ✔ Use K-Means to cluster cryptocurrencies
+
 ✔ Compare Elbow Curve and Cluster distributions
+
 ✔ Visualize results using Matplotlib
 
 ## Data Preprocessing
