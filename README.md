@@ -1,4 +1,4 @@
-### Crypto Clustering Project
+# Crypto Clustering Project
 ## Overview
 This project applies K-Means clustering to analyze and group cryptocurrencies based on their market performance. It also compares clustering results before and after PCA (Principal Component Analysis) to assess the impact of dimensionality reduction.
 
@@ -16,13 +16,13 @@ Data is standardized using StandardScaler() before clustering.
 PCA is applied to reduce the number of features while retaining key variance.
 
 ## Clustering Analysis
-# 1. Elbow Curve Analysis
+### 1. Elbow Curve Analysis
 Determines the optimal number of clusters (k) by plotting inertia values.
 Compared for both original data and PCA-transformed data.
-# 2. K-Means Clustering
+### 2. K-Means Clustering
 Clusters are created using the best k-value determined from the Elbow Curve.
 Clustering is performed on both original features and PCA-reduced features.
-# 3. Visualization
+### 3. Visualization
 Elbow Curve Comparison: Plots inertia vs. k-values to identify the optimal number of clusters.
 Cluster Comparison: Side-by-side plots contrast clustering before and after PCA.
 
